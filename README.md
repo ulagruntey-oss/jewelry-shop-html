@@ -1,91 +1,12 @@
-<HTML>
-  <HEAD>
-    <TITLE>Ювелірні прикраси</TITLE>
-  <style>
-  BODY { 
-      font-family: Verdana, sans-serif;
-      background-color: #e6f7ff; 
-      color: #144017;
-      text-align: center; 
-  }
-  H1 {
-      font-size: 4em;
-      color: #1c5634;
-      margin-bottom: 20px;
-  }
-  TABLE {
-      margin: 0 auto; 
-  }
-  IMG {
-      border-radius: 10px; 
-      transition: transform 0.3s ease-in-out; 
-  }
-  IMG:hover {
-      transform: scale(1.05); 
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  }
+# Jewelry Shop Page
+A simple web page about jewelry.
+Made with HTML and CSS.
 
-  
-  .buy-button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #1c5634; 
-      color: white;
-      text-decoration: none;
-      border-radius: 20px; 
-      font-weight: bold;
-      transition: background-color 0.3s ease; 
-  }
-  .buy-button:hover {
-      background-color: #0d2817; 
-      cursor: pointer;
-  }
-  </style>
-  </HEAD>
+## Features
+- Product cards with images and lists
+- Hover effect on images
+- "Buy" button with color change on hover
 
-  <BODY>
-    <H1>Ювелірні прикраси</H1>
-    
-    <TABLE border="0" cellspacing="40">
-      <TR>
-        <TD align="center">
-          <IMG SRC="https://i.pinimg.com/736x/4e/cd/ac/4ecdac5ae6afcb18c9747702c507fce0.jpg" ALT="Золоте кольє" WIDTH="200" height="270"><BR>
-          <B>Золоте кольє з перлами</B>
-          <OL>
-            <LI>Натуральні перли</LI>
-            <LI>Класичний дизайн</LI>
-            <LI>Для урочистих подій</LI>
-          </OL>
-          <A HREF="https://share.google/ph270tb3jlLk9oTJs" TARGET="_blank" class="buy-button">
-            Купити кольє
-          </A>
-        </TD>
-        <TD align="center">
-          <IMG SRC="https://i.pinimg.com/1200x/a4/18/76/a41876e0ed0111fa73b7e8ae75fca8be.jpg" ALT="Срібні сережки з камінцями" WIDTH="200" height="270"><BR>
-          <B>Срібні сережки з кристалами</B>
-          <OL>
-            <LI>Срібло високої проби</LI>
-            <LI>Камінці які видно з космосу</LI>
-            <LI>Ідеальний подарунок для неї</LI>
-          </OL>
-          <A HREF="https://shafa.ua/aksesuary/prykrasy/komplekty/154895840-nabir-puseti-i-kolco-sriblo-925_-pokrittya-rodiy-vstavka" TARGET="_blank" class="buy-button">
-            Купити сережки
-          </A>
-        </TD>
-        <TD align="center">
-          <IMG SRC="https://i.pinimg.com/1200x/1a/28/35/1a2835076aabfbf153613fb6583ca2bf.jpg" ALT="Каблучка" WIDTH="200" height="270"><BR>
-          <B>Каблучка з діамантом</B>
-          <OL>
-            <LI>Ідеальна для неї</LI>
-            <LI>Діамантове оздоблення</LI>
-            <LI>Для особливих моментів</LI>
-          </OL>
-          <A HREF="https://diamondsanddials.net/products/2-5ctw-emerald-cut-engagement-ring" TARGET="_blank" class="buy-button">
-            Купити каблучку
-          </A>
-        </TD>
-      </TR>
-    </TABLE>
-  </BODY>
-</HTML>
+## How to open
+Open index.html in any browser.
       
